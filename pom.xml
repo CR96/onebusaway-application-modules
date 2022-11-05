@@ -85,7 +85,7 @@
     </pluginRepository>
     <pluginRepository>
       <id>public.onebusaway.org</id>
-      <url>http://nexus.onebusaway.org/content/groups/public/</url>
+      <url>https://nexus.onebusaway.org/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
 
