@@ -483,6 +483,13 @@
           </dependencies>
         </plugin>
 
+        <!-- Force maven-war-plugin v3.3.2 project wide to avoid build failure on JDK > 1.8 -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.3.2</version>
+        </plugin>
+
         <plugin>
           <groupId>org.codehaus.cargo</groupId>
           <artifactId>cargo-maven2-plugin</artifactId>
